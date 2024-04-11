@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 805.44 729.47" style="enable-background:new 0 0 805.44 729.47;" xml:space="preserve">
+<style type="text/css">
+	.st01{fill:none;stroke:#FFFFFF !important;stroke-width:3;stroke-miterlimit:10;}
+</style>
+<g>
+	<g>
+		<g>
+			<polygon class="st01" points="580.44,386.09 342.25,386.09 342.25,144.35 248.64,144.35 248.64,386.09 10.44,386.09 10.44,481.1 
+				248.64,481.1 248.64,722.85 342.25,722.85 342.25,481.1 580.44,481.1 			"/>
+		</g>
+	</g>
+	<g>
+		<polygon class="st01" points="9.44,390.14 9.44,485.15 221.64,347.9 221.64,343.85 221.64,252.9 		"/>
+		<polygon class="st01" points="459.83,7.1 459.83,67.65 553.44,7.1 		"/>
+		<polygon class="st01" points="553.44,248.85 553.44,7.1 459.83,67.65 459.83,248.85 221.64,248.85 221.64,252.9 221.64,343.85 
+			459.83,343.85 459.83,585.6 553.44,585.6 553.44,343.85 791.64,343.85 791.64,248.85 		"/>
+		<g>
+			<line class="st01" x1="247.64" y1="144.35" x2="459.83" y2="7.1"/>
+			<line class="st01" x1="579.45" y1="386.25" x2="791.64" y2="249"/>
+		</g>
+		<line class="st01" x1="341.25" y1="144.35" x2="459.83" y2="67.65"/>
+		<line class="st01" x1="581.11" y1="386.25" x2="640.4" y2="343.85"/>
+		<line class="st01" x1="581.11" y1="483.65" x2="791.64" y2="343.85"/>
+		<line class="st01" x1="459.83" y1="67.65" x2="553.44" y2="7.1"/>
+		<line class="st01" x1="459.83" y1="585.6" x2="247.64" y2="722.85"/>
+		<line class="st01" x1="553.44" y1="585.6" x2="341.25" y2="722.85"/>
+		<line class="st01" x1="221.64" y1="252.9" x2="9.44" y2="390.14"/>
+		<line class="st01" x1="221.64" y1="252.9" x2="9.44" y2="390.14"/>
+		<line class="st01" x1="9.44" y1="485.15" x2="221.64" y2="347.9"/>
+	</g>
+</g>
+</svg>

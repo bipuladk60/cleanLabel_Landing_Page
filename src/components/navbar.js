@@ -36,10 +36,11 @@ const Navbar = ({scrollToSection}) => {
           </div>
         </div>
        
-        <div className={`${isOpen ? 'flex' : 'hidden'} flex-col items-center md:hidden`}>
-          <a href="#product" className="text-gray-800 hover:text-gray-600 px-3 py-2">Product</a>
-          <a href="#demo" className="text-gray-800 hover:text-gray-600 px-3 py-2">Demo</a>
-          <a href="#about" className="text-gray-800 hover:text-gray-600 px-3 py-2">About Us</a>
+        <div className={`${isOpen ? 'flex' : 'hidden'} flex-col items-center md:hidden w-screen`}>
+          <a href="#product" className="text-gray-800 hover:text-gray-600 py-2">Product</a>
+          <a href="#demo" className="text-gray-800 hover:text-gray-600 py-2">Demo</a>
+          <a href="#about" className="text-gray-800 hover:text-gray-600 py-2">About Us</a>
+            <a href="#joinUs" className="border border-black text-black px-4 py-2 rounded-full transition duration-300 my-2">Join Us!</a>
         </div>
       </div>
     </nav>

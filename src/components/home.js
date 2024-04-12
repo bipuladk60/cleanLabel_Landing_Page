@@ -28,9 +28,6 @@ const HomePage = () => {
             We make sure that you are eating healthy food by scanning the ingredients of the food you are eating.
           </p>
           <div className="flex flex-col gap-1">
-            <a href='#joinUs'><button className="bg-black text-white px-6 py-3 rounded-full font-semibold">
-              Join Us!
-            </button></a>
            <a href='https://form.jotform.com/241020939403044' target='_blank' rel="noopener noreferrer"> <button className="bg-black text-white py-3 rounded-full font-semibold mt-2 w-[60%] lg:w-[40%]">
             Join Beta Waitlist
             </button>

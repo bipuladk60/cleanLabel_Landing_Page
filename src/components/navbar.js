@@ -6,7 +6,7 @@ const Navbar = ({scrollToSection}) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 w-full z-10 bg-white/50 backdrop-blur-sm border-b-[1px] border-black-500">
+    <nav className="fixed top-0 w-screen z-10 bg-white/50 backdrop-blur-sm border-b-[1px] border-black-500">
       <div className="md:max-w-6xl mx-auto px-4 md:px-6">
         <div className="flex md:justify-between items-center py-2">
           <div className="flex items-center">
@@ -36,11 +36,10 @@ const Navbar = ({scrollToSection}) => {
           </div>
         </div>
        
-        <div className={`${isOpen ? 'flex' : 'hidden'} flex-col items-center md:hidden w-[80%]`}>
+        <div className={`${isOpen ? 'flex' : 'hidden'} flex-col items-center md:hidden`}>
           <a href="#product" className="text-gray-800 hover:text-gray-600 px-3 py-2">Product</a>
           <a href="#demo" className="text-gray-800 hover:text-gray-600 px-3 py-2">Demo</a>
           <a href="#about" className="text-gray-800 hover:text-gray-600 px-3 py-2">About Us</a>
-          <a href="#joinUs" className="border border-black text-black px-4 py-2 my-4 rounded-full mx-3 transition duration-300">Join Us</a>
         </div>
       </div>
     </nav>

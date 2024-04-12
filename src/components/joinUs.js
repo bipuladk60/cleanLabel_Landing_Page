@@ -1,22 +1,17 @@
 import emailjs from 'emailjs-com';
 import {useRef} from 'react';
 
-import {useState} from 'react';
 
 const JoinUs = () =>{
-    const [submit, setSubmit] = useState('Submit');
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
-
         emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE_ID, process.env.REACT_APP_EMAILJS_TEMPLATE_ID, form.current, process.env.REACT_APP_EMAILJS_USER_ID)
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
                 console.log(error.text);
             });
-
-       
         e.target.reset();
     };
 
@@ -34,7 +29,7 @@ const JoinUs = () =>{
                 <input name = "name" className="font-jaldi text-white appearance-none bg-transparent border-b pt-3 pb-2 md:text-2xl sm:text-[1rem] w-full leading-tight focus:outline-none mt-8" type="text" placeholder="Name..." required></input>
                 <input name = "email" className="font-jaldi text-white appearance-none bg-transparent border-b pt-3 pb-2 md:text-2xl sm:text-[1rem] w-full leading-tight focus:outline-none mt-8" type="email" placeholder="Email..." required></input>
                 <input name = "message" className="font-jaldi text-white appearance-none bg-transparent border-b pt-3 pb-2 md:text-2xl sm:text-[1rem] w-full leading-tight focus:outline-none mt-8" type="text" placeholder="Message..." required></input>
-                <button className="rounded bg-white text-black w-full h-10 mt-7 font-jaldi text-2xl mb-10" type='submit'>{submit}</button>
+                <button className="rounded bg-white text-black w-full h-10 mt-7 font-jaldi text-2xl mb-10" type='submit'>Submit</button>
                 </form>
              </div>
 

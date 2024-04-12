@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import WarningAmberIcon from '@mui/icons-material/WarningAmber';
-// import rawDataImage from './assets/ingredient2.jpg';
 import receipt from './assets/receipt.png';
 import graph from './assets/Graph.png';
 

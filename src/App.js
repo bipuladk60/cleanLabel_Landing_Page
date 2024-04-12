@@ -1,12 +1,12 @@
 import './App.css';
 
-
 import Navbar from './components/navbar';
 import HomePage from './components/home';
 import ProductPage from './components/product';
 import DemoComponent from './components/demo';
 import AboutUs from './aboutUs';
 import JoinUs from './components/joinUs';
+
 
 
 

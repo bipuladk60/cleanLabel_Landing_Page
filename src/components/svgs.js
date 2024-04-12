@@ -2,7 +2,7 @@ import {ReactComponent as Svg1} from './assets/svg1.svg';
 import {ReactComponent as Svg2} from './assets/svg-2.svg';
 import {ReactComponent as Svg3} from './assets/svg3.svg';
 import {ReactComponent as Svg4} from './assets/svg-4-01.svg';
-import {ReactComponent as Logo} from './assets/logo.svg';
+import {ReactComponent as Logo} from './assets/finalLogo.svg';
 
 export const SvgFirst = () => {
     return(

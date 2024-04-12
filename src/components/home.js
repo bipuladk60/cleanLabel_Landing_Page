@@ -11,8 +11,8 @@ const HomePage = () => {
 
 
   return (
-    <div className="container mx-auto px-4 py-10">
-      <div className="md:flex md:items-center md:justify-between md:mt-[15rem] sm:mt-[2rem]">
+    <div className="container mx-auto px-4 py-10 ">
+      <div className="md:flex md:items-center md:justify-between mt-[10rem] lg:mt-[15rem]">
         <div className="md:w-1/2 lg:mr-8">
         <motion.div 
          

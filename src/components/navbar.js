@@ -6,13 +6,11 @@ const Navbar = ({scrollToSection}) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 w-full z-10 bg-white border-b-[1px] border-black-500">
+    <nav className="fixed top-0 w-full z-10 bg-white-1/2 backdrop-blur-sm border-b-[1px] border-black-500">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="flex justify-between items-center py-2">
+        <div className="flex md:justify-between items-center py-2">
           <div className="flex items-center">
-            <div>
             <a href="#home"><LogoSvg/></a>
-            </div>
             
             <div className="hidden md:flex space-x-4">
               <a href="#product" className="text-gray-800 hover:text-gray-600">Product</a>

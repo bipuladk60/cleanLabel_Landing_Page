@@ -1,4 +1,4 @@
-// import emailjs from 'emailjs-com';
+import emailjs from 'emailjs-com';
 import {useRef} from 'react';
 
 import {useState} from 'react';
@@ -8,8 +8,18 @@ const JoinUs = () =>{
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
-    e.target.reset();
-    }
+
+        emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE_ID, process.env.REACT_APP_EMAILJS_TEMPLATE_ID, form.current, process.env.REACT_APP_EMAILJS_USER_ID)
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+
+       
+        e.target.reset();
+    };
+
 
     return(
         
